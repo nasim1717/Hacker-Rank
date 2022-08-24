@@ -1,0 +1,50 @@
+/// problem link https://www.hackerrank.com/contests/phitron-programming-contest-2022/challenges/mina-and-bits/submissions/code/1347545206
+
+
+#include<bits/stdc++.h>
+#include<math.h>
+#include<string>
+#define ll long long
+#define vl vector<ll>
+#define vi vector<int>
+#define v2 vector<vector<int>>
+#define pb push_back
+#define nl endl
+#define yes "YES"
+#define no "NO"
+#define mod 1000000007
+#define mod1 998244353
+#define ull unsigned long long
+#define     in_range(i,x,y)    for(int i=x;i<y;i++)
+#define     in_range1(i,x,y)    for(int i=x;i<=y;i++)
+#define  N 1000
+using namespace std;
+
+
+void solve(){
+    ll n,m,u,v,i,j;
+    cin>>n;
+    ll cnt=0;
+    if(n==1){
+        cout<<1<<nl;
+        return;
+    }
+    m=log2(n);
+    ll x = log2(n+1);
+    if(x>m)
+        cout<<x<<nl;
+    else
+        cout<<m<<nl;
+}
+
+
+int main(){
+    ll i,tc,n,Pow,m,ans;
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    cin>>tc;
+    while(tc--){
+        solve();
+    }
+return 0;
+}
